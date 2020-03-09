@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Thumbnail from './Thumbnail'
+import React, { Component } from 'react';
+import Thumbnail from './Thumbnail';
 import styled from 'styled-components';
 
 const Button = styled.a`
@@ -33,7 +33,7 @@ const Item = (props) => {
                   <h5>{props.title}</h5>
                   <p>{props.description}</p>
                   <div className="cta-wrapper">
-                    <Button className="btn cta-btn">Watch This Video</Button>
+                    <Button onClick={props.handleVideoChange} className="btn cta-btn">Watch This Video</Button>
                   </div>
                 </div>
               </div>

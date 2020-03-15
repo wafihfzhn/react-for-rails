@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Jumbotron from './Jumbotron';
+import Footer from './Footer';
 import Table from './Table/Table';
 import axios from 'axios'
 
@@ -49,6 +50,7 @@ class Home extends Component {
       <section>
         <Jumbotron/>
         <Table handleVideoChange={this.handleVideoChange.bind(this)} course_modules={this.state.course_modules}/>
+        <Footer/>
       </section>
     )
   }

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const SecFooter = styled.footer`
   background: #333;
   color: white;
-  padding: 20px 0;
+  padding: 30px 0;
 `
 
 const Name = styled.a`

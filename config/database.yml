@@ -13,6 +13,5 @@ test:
 
 production:
   <<: *default
+  adapter: postgresql
   database: react_for_rails_production
-  username: react_for_rails
-  password: <%= ENV['REACT_FOR_RAILS_DATABASE_PASSWORD'] %>

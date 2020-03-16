@@ -12,6 +12,5 @@ test:
   database: react_for_rails_test
 
 production:
-  <<: *default
   adapter: postgresql
   database: react_for_rails_production

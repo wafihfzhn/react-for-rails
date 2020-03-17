@@ -9,7 +9,7 @@
 
 ## Configuration
 - Clone this repo
-- Setup with your database on `config/database.yml`
+- Setup your database on `config/database.yml`
 - Run `bundle install`
 - Run `yarn install`
 - Run `rails db:create` and `rails db:seed` or `rails db:setup`

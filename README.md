@@ -1,24 +1,17 @@
-# README
+# React For Ruby on Rails Developers
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tech
+- React
+- Ruby 2.6.3
+- Rails 6.0.2
+- Bootstrap
+- PostgreSQL
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Configuration
+- Clone this repo
+- Setup with your database on 'congif/database.yml'
+- Run 'bundle install'
+- Run 'yarn install'
+- Run 'rails db:create' and 'rails db:seed' or 'rails db:setup'
+- Start server 'rails server' or 'rails s'
+- Open localhost:3000

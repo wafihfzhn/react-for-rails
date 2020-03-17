@@ -9,9 +9,9 @@
 
 ## Configuration
 - Clone this repo
-- Setup with your database on 'congif/database.yml'
-- Run 'bundle install'
-- Run 'yarn install'
-- Run 'rails db:create' and 'rails db:seed' or 'rails db:setup'
-- Start server 'rails server' or 'rails s'
+- Setup with your database on `congif/database.yml`
+- Run `bundle install`
+- Run `yarn install`
+- Run `rails db:create` and `rails db:seed` or `rails db:setup`
+- Start server `rails server` or `rails s`
 - Open localhost:3000

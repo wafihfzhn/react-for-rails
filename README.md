@@ -12,6 +12,6 @@
 - Setup your database on `config/database.yml`
 - Run `bundle install`
 - Run `yarn install`
-- Run `rails db:create` and `rails db:seed` or `rails db:setup`
+- Run `rails db:create` `db:migrate` and `rails db:seed` or `rails db:setup`
 - Start server `rails server` or `rails s`
 - Open localhost:3000
